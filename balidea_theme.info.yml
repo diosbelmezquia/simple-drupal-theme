@@ -1,0 +1,9 @@
+name: Balidea Test Theme
+type: theme
+description: 'Balidea test custom theme'
+base theme: classy
+
+libraries:
+  - balidea_theme/global-styling
+
+core_version_requirement: ^9

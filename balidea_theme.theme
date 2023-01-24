@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Contains balidea_theme.theme.
+ */
+
+/**
+ * Implements hook_preprocess().
+ */
+function balidea_theme_preprocess_page(&$variables) {
+  $variables['#attached']['drupalSettings']['siteName'] = \Drupal::config('system.site')->get('name');
+}

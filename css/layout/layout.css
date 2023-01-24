@@ -1,0 +1,25 @@
+/**
+ * @file
+ * Styles for layout.
+ */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+body {
+  background-color: #e7e7e7;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn--site-name {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 40px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+}

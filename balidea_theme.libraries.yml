@@ -1,0 +1,10 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/layout/layout.css: { weight: 99 }
+  js:
+    js/general.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
